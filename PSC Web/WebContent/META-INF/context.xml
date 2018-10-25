@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>		<!-- https://gist.github.com/sergiolopes/2469299  -->
+<Context>
+	<Manager pathname="" /> <!-- Disable storage of Sessions across restarts -->
+	<Resource
+		name="BeanManager"
+		auth="Container"
+		type="javax.enterprise.inject.spi.BeanManager"
+		factory="org.jboss.weld.resources.ManagerObjectFactory" 
+	/>
+</Context>
